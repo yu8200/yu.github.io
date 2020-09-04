@@ -1,11 +1,11 @@
 # Basic
-title: GcsSloop
+title: yuxiang
 subtitle: Just do IT later.
 welcome_message: 欢迎来到我的魔法世界! 
-description: 嗨，我是 GcsSloop，一名来自2.5次元的魔法师，Android自定义View系列文章作者，非著名程序员。
-creator: <a href="http://www.GcsSloop.com">@GcsSloop</a>
+description: 嗨，我是 yuxiang，ios Dev，非著名程序员。
+creator: <a href="http://www.yu09.i">yuxiang</a>
 
-url: "http://www.gcssloop.com"
+url: "http://www.yu09.in"
 
 permalink: /:categories/:title
 
@@ -23,9 +23,9 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: GitHub,     in_site: false,  description: GcsSloop's GitHub,    url: 'https://github.com/GcsSloop'}
+    - {title: GitHub,     in_site: false,  description: yuxiang's GitHub,    url: 'https://github.com/yu8200'}
     - {title: 目录,        in_site: true,  description: 博客目录,               url: '/timeline'}
-    - {title: 关于,        in_site: true,  description: 关于作者 GcsSloop,       url: '/info/about'}
+    - {title: 关于,        in_site: true,  description: 关于作者 yuxiang,       url: '/info/about'}
     
 
 
@@ -40,19 +40,19 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: GcsSloop
+    disqus: yuxiang
     # duoshuo:
 # Social
 social:
-    weibo: GcsSloop
-    github: GcsSloop
-    twitter: GcsSloop
+    weibo: yuxiang
+    github: yuxiang
+    twitter: yuxiang
     rss: /feed.xml
-    mail: GcsSloop@gmail.com
+    mail: yuxiang@gmail.com
     copyright: http://choosealicense.online
 
 # Google Analytics
 future: true
 ga:
-    id: UA-82493667-1
-    host: www.gcssloop.com
+    id: UA-8233223-3
+    host: www.ty09.in
