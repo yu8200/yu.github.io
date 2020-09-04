@@ -52,6 +52,7 @@ social:
     copyright: http://choosealicense.online
 
 # Google Analytics
+future: true
 ga:
     id: UA-82493667-1
     host: www.gcssloop.com
