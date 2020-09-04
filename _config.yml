@@ -1,53 +1,32 @@
-# Basic
-title: Raider
-subtitle: who tm cares
-welcome_message:  So do you want to take a leap of faith or become an old man, filled with regret, waiting to die alone?
-creator: <a href="http://raid.github.io">@raid.github.io</a>
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-url: "https://ioraid.github.io"
-
-permalink: /:categories/:title
-
-# Format
-highlighter: rouge
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+pygments: true
 markdown: kramdown
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
-
-blog_button:
-    title: 博客
-    description: 访问博客
-
-nav:
-    - {title: GitHub,     in_site: false,  description: Raider's GitHub,    url: 'https://ioraid.github.io'}
-    - {title: 目录,        in_site: true,  description: 博客目录,               url: '/timeline'}
-    - {title: 关于,        in_site: true,  description: 关于作者,       url: '/info/about'}
-    
 
 
-gems:
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-redirect-from
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 現實のポ蕅劇
 
-# Pagination
-paginate: 10
-paginate_path: "page/:num/"
+description: Stylish Jekyll Theme
+author:
+  name: 現實のポ蕅劇
+  email: gdwuyx@gmail.com
+  github: wuyx
+  twitter: wuyx
+  pinterest: wuyx
+  linkedin: wuyx
+  bio: So do you want to take a leap of faith or become an old man, filled with regret, waiting to die alone?
+  email_md5: 726351295ec82e145928582f595aa3aa
 
-# Comment
-comment:
-    disqus: 
-    # duoshuo:
-# Social
-social:
-    weibo: 
-    github: 
-    twitter: 
-    rss: /feed.xml
-    mail: iraider@163.com
-    copyright: http://choosealicense.online
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
 
-
+BASE_PATH:
